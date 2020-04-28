@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Test;
 
-import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+//import static org.junit.Assert.*;
 
 public class calculator_tests {
 
@@ -12,7 +12,7 @@ public class calculator_tests {
         // 2. Act
         var resultaat = calc.rekenmachine(4, 1, "plus");
         // 3. Assert
-        assertThat(resultaat, is(5));
+        assertEquals(resultaat, 5);
     }
 
     @Test
@@ -22,7 +22,7 @@ public class calculator_tests {
         // 2. Act
         var resultaat = calc.rekenmachine(4, 1, "min");
         // 3. Assert
-        assertThat(resultaat, is(3));
+        assertEquals(resultaat, 3);
     }
 
     @Test
@@ -32,7 +32,7 @@ public class calculator_tests {
         // 2. Act
         var resultaat = calc.rekenmachine(4, 2, "maal");
         // 3. Assert
-        assertThat(resultaat, is(8));
+        assertEquals(resultaat, 8);
     }
 
     @Test
@@ -42,7 +42,7 @@ public class calculator_tests {
         // 2. Act
         var resultaat = calc.rekenmachine(4, 2, "delen");
         // 3. Assert
-        assertThat(resultaat, is(2));
+        assertEquals(resultaat, 2);
     }
 
 }

@@ -1,12 +1,12 @@
 public class calculator {
 
     public static void main(String[] args) {
-
+        /*
         int x = Integer.parseInt(args[0]);
         String bewerking = args[1];
         int y = Integer.parseInt(args[2]);
-
-        int uitkomst = rekenmachine(4, 5, "plus");
+        */
+        int uitkomst = rekenmachine(1, 3, "plus");
         System.out.println(uitkomst);
     }
 
