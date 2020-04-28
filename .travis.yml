@@ -19,5 +19,4 @@ before_install:
 
 install:
   - ./gradlew check
-  - ./gradlew frontendSync --stacktrace
   - ./gradlew shadowJar
