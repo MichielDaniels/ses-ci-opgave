@@ -44,5 +44,5 @@ public class calculator_tests {
         // 3. Assert
         assertThat(resultaat, is(2));
     }
-    
+
 }
